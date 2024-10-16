@@ -13,9 +13,23 @@ pnpm install
 
 2. Create “.env.local” in the project root and add the following definition
 ```.env.local
-OPENAI_API_KEY=<YOUR OPENAI API KEY>
-ANTHROPIC_API_KEY=<YOUR ANTHROPIC API KEY>
+# OpenAI API Key
+OPENAI_API_KEY=sk-yyyyy
+
+# Anthropic API Key
+ANTHROPIC_API_KEY=sk-ant-api-xxxxxxxx
+
+# Vite log level
 VITE_LOG_LEVEL=debug
+
+# AWS Access Key ID
+AWS_ACCESS_KEY_ID=AAAAA
+
+# AWS Secret Access Key
+AWS_SECRET_ACCESS_KEY=...
+
+# AWS Region
+AWS_REGION=us-east-1
 ```
 
 3. When ready, run the following command in a powershell and you are good to go!
