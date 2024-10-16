@@ -28,3 +28,4 @@ dist-ssr
 *.vars
 .wrangler
 _worker.bundle
+script_name.js
